@@ -57,7 +57,9 @@ local unitTable = {
 	"Upgraded Titan ClockMan 3.0";
 	"Upgraded Titan DrillMan";
 	"caseoh";
-	"steve"
+	"steve";
+        "FIRE IN DA HOLE";
+        "Titan Clover Man"
 }
 for i, v in pairs(unitTable) do
 	local args = {
