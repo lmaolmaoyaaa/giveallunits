@@ -1,0 +1,68 @@
+local unitTable = {
+	"2d Cameraman";
+	"Astro Upgraded Titan Cameraman";
+	"Baller Unit";
+	"Camera Spider";
+	"CameraWoman";
+	"Cameraman";
+	"Car Speakerman";
+	"Chef Tv Man";
+	"Coems Unit";
+	"Corrupted Cameraman";
+	"Cuckoo Clockman";
+	"Dark Speakerman";
+	"Dual Bat Speakerman";
+	"Enginer";
+	"Ghost Cameraman";
+	"Green Laser Cameraman";
+	"Guardian Clockman";
+	"Guest 666 Unit";
+	"Hyper Titan Speakerman";
+	"Large Clockman";
+	"Large Laser Cameraman";
+	"Largue Speakerman";
+	"Laser Cameraman Car";
+	"Mace Cameraman";
+	"Mech Cameraman";
+	"MewingTvMan";
+	"Nerd Emoji";
+	"Ninja Cameraman";
+	"Noob Unit";
+	"Ohio Cameraman";
+	"Partner Unit";
+	"Pizza Man";
+	"RayGun Cameraman";
+	"SantaTvMan";
+	"Scientist Box";
+	"Scientist Camera";
+	"Secret Agent";
+	"Silly Duck";
+	"Silver Hyper Titan Speakerman";
+	"Sinister TitanTVMan";
+	"Speaker";
+	"Spider TV";
+	"TVMan";
+	"Titan Burger Man";
+	"Titan Present Man";
+	"Titan Sigma Man";
+	"Titan Speakerman";
+	"Toast Man";
+	"Toxic Hyper Titan Speakerman";
+	"Toxic Upgraded Titan Cameraman";
+	"Tri Titan";
+	"Ultra Hyper Titan Speakerman";
+	"Upgraded Titan Cameraman";
+	"Upgraded Titan CameramanV2";
+	"Upgraded Titan Clock Man";
+	"Upgraded Titan ClockMan 3.0";
+	"Upgraded Titan DrillMan";
+	"caseoh";
+	"steve"
+}
+for i, v in pairs(unitTable) do
+	local args = {
+		[1] = v
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("Stopinteractinglol12843814891j1kjr1nnlskfnlnklasknlknlcnklascnklancklanklcnlkacnkla"):InvokeServer(unpack(args))
+end
