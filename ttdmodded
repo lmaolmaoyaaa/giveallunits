@@ -59,12 +59,14 @@ local unitTable = {
 	"caseoh";
 	"steve";
         "FIRE IN DA HOLE";
-        "Titan Clover Man"
+        "Titan Clover Man";
+        "Tv Woman";
+        "Pencil Man";
+        "Sub-Space Titan";
 }
 for i, v in pairs(unitTable) do
-	local args = {
-		[1] = v
-	}
+	local args = {[1] = v} 
 
-	game:GetService("ReplicatedStorage"):WaitForChild("Stopinteractinglol12843814891j1kjr1nnlskfnlnklasknlknlcnklascnklancklanklcnlkacnkla"):InvokeServer(unpack(args))
+game:GetService("ReplicatedStorage").Dejadeinteractuarasdaksckjnsavkndsvknsdvknsdcknhirorqwriqwoiriquwriuoqwroiuqrwiou:InvokeServer(unpack(args))
+args))
 end
