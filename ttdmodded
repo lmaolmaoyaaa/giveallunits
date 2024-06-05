@@ -43,6 +43,7 @@ local unitTable = {
 	"Spider TV";
 	"TVMan";
 	"Titan Burger Man";
+        "Titan Cameraman";   
 	"Titan Present Man";
 	"Titan Sigma Man";
 	"Titan Speakerman";
@@ -63,10 +64,12 @@ local unitTable = {
         "Tv Woman";
         "Pencil Man";
         "Sub-Space Titan";
+        "Bloxy Cola Mech"
 }
 for i, v in pairs(unitTable) do
-	local args = {[1] = v} 
+local args = {
+    [1] = v
+}
 
-game:GetService("ReplicatedStorage").Dejadeinteractuarasdaksckjnsavkndsvknsdvknsdcknhirorqwriqwoiriquwriuoqwroiuqrwiou:InvokeServer(unpack(args))
-args))
+game:GetService("ReplicatedStorage"):WaitForChild("Dejadeinteractuarafsdaksckjnsavkndsvknsdvknsdcknhirorqwriqwoiriquwriuoqwroiuqrwiou"):InvokeServer(unpack(args))
 end
